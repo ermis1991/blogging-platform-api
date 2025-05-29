@@ -100,7 +100,7 @@ cd blogging-platform-api
 
 ---
 
-## 👤 Author
+## Author
 
 **Kadir Eren Tüter**  
 Backend Developer | Java Enthusiast  
