@@ -1,12 +1,12 @@
 https://roadmap.sh/projects/blogging-platform-api
 
-# 📝 Blog API
+# Blog API
 
 A simple RESTful API for managing blog posts built with Spring Boot and PostgreSQL.
 
 ---
 
-## 📦 Features
+## Features
 
 - Create, read, update, and delete blog posts
 - Search posts by title, content, or category
@@ -15,9 +15,9 @@ A simple RESTful API for managing blog posts built with Spring Boot and PostgreS
 
 ---
 
-## 🚀 API Endpoints
+## API Endpoints
 
-### 📌 Create a Post
+### Create a Post
 
 POST /posts
 
@@ -32,7 +32,7 @@ POST /posts
 
 ```
 
-### ✏️ Update a Post
+### Update a Post
 
 PUT /posts/{id}
 
@@ -41,7 +41,7 @@ Same structure as the "Create a Post" request.
 
 ---
 
-### 🗑️ Delete a Post
+### Delete a Post
 
 DELETE /posts/{id}
 
@@ -50,27 +50,27 @@ DELETE /posts/{id}
 
 ---
 
-### 🔍 Get Post by ID
+### Get Post by ID
 
 GET /posts/{id}
 
 ---
 
-### 📥 Get All Posts
+### Get All Posts
 
 **GET /posts**  
 Returns all blog posts.
 
 ---
 
-### 🔍 Search Posts by Term
+### Search Posts by Term
 
 **GET /posts?term=java**  
 Filters posts by title, content, or category using case-insensitive partial match.
 
 ---
 
-## ⚠️ Error Handling
+## Error Handling
 
 - `200 OK` – Post fetched or updated successfully
 - `201 Created` – Post successfully created
@@ -80,7 +80,7 @@ Filters posts by title, content, or category using case-insensitive partial matc
 
 ---
 
-## 🛠 Getting Started
+## Getting Started
 
 1. **Clone the repository**
 ```bash
